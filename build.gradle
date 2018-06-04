@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'net.redpipe:redpipe-engine:0.0.2'
+    compile 'net.redpipe:redpipe-fast-classpath-scanner:0.0.2'
+}
